@@ -10,10 +10,28 @@ class EventBind extends Component {
              count: 1
         }
 
-        this.clickHandler = this.clickHandler.bind(this)
+        //this.clickHandler = this.clickHandler.bind(this)
     }
     
+    /*
     clickHandler(){
+        this.setState({
+            count: this.state.count + 1
+        })
+        if(this.state.count%2==0){
+            this.setState({
+                message: 'Hello'
+            })
+        }
+        else{
+            this.setState({
+                message: 'Goodbye'
+            })
+        }
+        console.log(this.state.count)
+    }
+    */
+    clickHandler= () =>{
         this.setState({
             count: this.state.count + 1
         })
