@@ -6,6 +6,7 @@ import Bye from './components/Bye'
 import Counter from './components/Counter'
 import FunctionClick from './components/FuntionClick'
 import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
 
 function App() {
   return (
@@ -19,8 +20,9 @@ function App() {
       <Bye name="Taksh" subject="Law" />
       <Bye />
       <Counter />
-      <FunctionClick />*/}
-      <ClassClick />
+      <FunctionClick />
+      <ClassClick />*/}
+      <EventBind />
     </div>
   );
 }
