@@ -4,6 +4,8 @@ import Greet from './components/Greet'
 import Hello from './components/Hello'
 import Bye from './components/Bye'
 import Counter from './components/Counter'
+import FunctionClick from './components/FuntionClick'
+import ClassClick from './components/ClassClick';
 
 function App() {
   return (
@@ -15,8 +17,10 @@ function App() {
       </Hello>
       <Hello name="Yash" subject="Design" />
       <Bye name="Taksh" subject="Law" />
-      <Bye />*/}
+      <Bye />
       <Counter />
+      <FunctionClick />*/}
+      <ClassClick />
     </div>
   );
 }
