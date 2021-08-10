@@ -35,7 +35,7 @@ class EventBind extends Component {
         this.setState({
             count: this.state.count + 1
         })
-        if(this.state.count%2==0){
+        if(this.state.count%2===0){
             this.setState({
                 message: 'Hello'
             })
